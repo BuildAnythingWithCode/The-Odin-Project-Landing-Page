@@ -2,6 +2,66 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: 0px solid red;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header,
+.section {
+  padding: 0 10vw;
+}
+
+.header-logo {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #1F2937;
+}
+
+h3 {
+  color: #1F2937;
+}
+
+h4 {
+  color: white;
+}
+
+.content2 h4 {
+  color: #1F2937;
+}
+
+p {
+  color: white;
+}
+
+header,
+.banner {
+  background-color: #1F2937;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+nav a {
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 button {
@@ -10,8 +70,108 @@ button {
   padding: 5px 30px;
   color: white;
   border: 0;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .cto-parent-cont button {
   border: 2px solid white;
+}
+
+.section {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-text-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 50%;
+  height: 50%;
+}
+
+.placeholder-image {
+  background-color: #6D747D;
+  color: white;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content1 {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.random-info-parent-cont {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.random-info-child-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-width: 10vw;
+  flex: 1;
+}
+
+.random-info-box {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 20px;
+}
+
+.random-info-child-cont p {
+  color: #1F2937;
+  text-align: center;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+}
+
+.content2 h3 {
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.content2 h4 {
+  align-self: flex-end;
+}
+
+.cto-parent-cont {
+  background-color: #3882F6;
+  border-radius: 5px;
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
 }
