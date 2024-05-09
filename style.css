@@ -4,3 +4,14 @@
   box-sizing: border-box;
 }
 
+button {
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 5px 30px;
+  color: white;
+  border: 0;
+}
+
+.cto-parent-cont button {
+  border: 2px solid white;
+}
